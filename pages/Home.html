@@ -7,25 +7,72 @@
     <link rel="stylesheet" href="../Styles/Styles.css">
 </head>
 <body>
-   <Navbar  id="nav-menu" >
     <div id="nav-menu">
-       <div class="logo"><img src="../images/Abhay.png" style="display: block;width:100px;height:100px;"  alt=""></div>
-       <a class="nav-link home" href="#home">Home</a>
-        <a class="nav-link about" href="#about">About</a>
-        <a class="nav-link skills" href="#skills">Skills</a>
-        <a class="nav-link projects" href="#projects">Projects</a>
-        <a class="nav-link contact" href="#contact">Contact</a>
-    </div>
-   </Navbar>
-   <!-- <div id="pages"> -->
-   <section id="home">
-  
+    <a class="nav-link home" href="#home">Home</a>
+    <a class="nav-link about" href="#about">About</a>
+    <a class="nav-link skills" href="#skills">Skills</a>
+    <a class="nav-link projects" href="#projects">Projects</a>
+    <a class="nav-link contact" href="#contact">Contact</a>
+    <a class="nav-link resume" id="resume-link-1" href="path/to/resume.pdf" target="_blank">Resume</a>
+  </div>
 
-   </section>
-   <section id="about" class="about section">About</section>
-   <section id="skills">skills</section>
-   <section  id="projects">projects</section>
-   <section id="contact">contact</section>
-<!-- </div> -->
-</body>
+  <!-- Home section -->
+  <div id="home">
+    <img class="home-img" src="path/to/professional_photo.jpg" alt="Professional Photo">
+  </div>
+
+  <!-- About section -->
+  <div id="about" class="about section">
+    <div id="user-detail-name">Your Name</div>
+    <div id="user-detail-intro">Formal introduction goes here...</div>
+  </div>
+
+  <!-- Skills section -->
+  <div id="skills">
+    <div class="skills-card">
+      <img class="skills-card-img" src="path/to/skill_image_1.jpg" alt="Skill 1">
+      <div class="skills-card-name">Skill 1</div>
+    </div>
+    <!-- Add more skills cards as needed -->
+  </div>
+
+  <!-- Projects section -->
+  <div id="projects">
+    <div class="project-card">
+      <img src="path/to/project_image_1.jpg" alt="Project 1">
+      <div class="project-title">Project 1</div>
+      <div class="project-description">Project description goes here...</div>
+      <div class="project-tech-stack">Tech stack used goes here...</div>
+      <a class="project-github-link" href="link_to_github_repository" target="_blank">GitHub Repository</a>
+      <a class="project-deployed-link" href="link_to_deployed_page_or_video" target="_blank">Deployed Page/Video</a>
+    </div>
+    <!-- Add more project cards as needed -->
+  </div>
+
+  <!-- Contact section -->
+  <div id="contact">
+    <div id="contact-github">GitHub Profile Link goes here...</div>
+    <div id="contact-linkedin">LinkedIn Profile Link goes here...</div>
+    <div id="contact-phone">Phone Number goes here...</div>
+    <div id="contact-email">Email Address goes here...</div>
+  </div>
+
+  <!-- Resume buttons -->
+  <button id="resume-button-1">Download Resume as PDF</button>
+  <button id="resume-button-2">Download Resume as PDF</button>
+
+  <!-- GitHub calendar -->
+  <div class="react-activity-calendar">
+    <!-- GitHub calendar content goes here -->
+  </div>
+
+  <!-- GitHub statistics images -->
+  <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/demo/" alt="GitHub Streak Stats">
+  <img id="github-top-langs" src="https://github.com/anuraghazra/github-readme-stats" alt="GitHub Top Languages">
+  <img id="github-stats-card" src="https://github.com/anuraghazra/github-readme-stats" alt="GitHub Stats Card">
+
+  <!-- Add your JavaScript code and any necessary scripts here -->
+    
+        
+    </body>
 </html>
