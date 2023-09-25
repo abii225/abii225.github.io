@@ -13,10 +13,12 @@ body{
   font-size: x-large;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#navbar,#nav-menu{
+  background-color:rgb(28, 165, 169);
+}
 #navbar{
   width:100%; 
   height:80px;
-  background-color:cadetblue;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,8 +42,18 @@ height:100%;
 #nav-menu a{
   font-size: 24px;
   text-decoration: none;
-  display: block;
+  color: black;
+  padding: 10px;
+  background-color:white;
+  border-radius: 30px;
 }
+
+#nav-menu a:hover{
+ background-color: rgb(9, 101, 101);
+ color: aliceblue;
+}
+
+
 #home{
   margin-top:250px;
   width:100%;
@@ -226,6 +238,25 @@ table{
 
 /* =========================  Contact ============================== */
 @media screen and (min-width: 350px) and (max-width:599px){
+ #navbar{
+  /* margin-top: 150px; */
+ }
+  #nav-menu{
+    width:30%;
+     display: flex;
+     flex-direction: column;
+     background-color: blue;
+     align-items: center;
+     justify-content: space-around;
+     margin-top:350px;
+     z-index: 2;
+    
+    }
+    #nav-menu a{
+      display:block;
+    }
+    
+  
   #contact{
     width:70%;
     height:250px;
@@ -301,19 +332,12 @@ table{
 #navbar{
   width:100%; 
   height:80px;
-  background-color:greenyellow;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position:fixed;
   top:0;
 }
-#nav-menu a{
-  font-size: 14px;
-  text-decoration: none;
-  display: block;
-}
-
  
   #projects{
     width:100%;
@@ -393,6 +417,20 @@ table{
   }
 }
 @media screen and (min-width: 869px) and (max-width:1009px) {
+  #nav-menu{
+  width:80%;
+  height:450px;
+   display: flex;
+   flex-direction: column;
+   background-color: blue;
+   align-items: center;
+   margin-top:100px;
+   margin-right:10%;
+  }
+  #nav-menu a{
+    display:block;
+  }
+  
   #home{
     margin-top:150px;
     width:100%;
@@ -432,7 +470,6 @@ table{
 #navbar{
   width:100%; 
   height:80px;
-  background-color:greenyellow;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -485,7 +522,6 @@ table{
 #navbar{
   width:100%; 
   height:80px;
-  background-color:greenyellow;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -547,7 +583,6 @@ table{
 #navbar{
   width:100%; 
   height:80px;
-  background-color:greenyellow;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -569,7 +604,6 @@ table{
 #navbar{
   width:100%; 
   height:80px;
-  background-color:greenyellow;
   display: flex;
   justify-content: space-between;
   align-items: center;
