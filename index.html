@@ -1,465 +1,681 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head> 
-    <!-- Webpage Title -->
-    <title>Abhay V</title>
 
-    <!-- Import CSS: Main Stylesheet -->
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="stylesheet" href="./nav.css">
-    
-   
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 
-<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<!-- <link
-  rel="stylesheet"
-  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/> -->
-  </head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
 
-  </html>
-     <nav class="nav" >
-        <div class="container" id="nav-menu">
-            <h1 class="logo"><a href="index.htm"></a></h1>
-            <ul>
-                <li><a href="index.html" class="nav-link home" class="current">Home</a></li>
-                <li><a class="link" class="nav-link about" href="#about" data-scroll>About Me</a></li>
-                <li><a class="link" class="nav-link skills" href="#skills" data-scroll>Skills</a></li>
-                <li><a class="link" class="nav-link projects"  href="#projects" data-scroll>Projects</a></li>
-                <li><a class="link" class="nav-link contact"  href="#contact" data-scroll>Contact</a></li>
-                
-                <!-- == -->
-                
+        <link rel="stylesheet" href="./Styles/contact.css">
+        <link rel="stylesheet" href="./Styles/github.css">
+        <link rel="stylesheet" href="./Styles/index.css">
+
+        <link rel="stylesheet" href="./Styles/slider1.css">
+        <link rel="stylesheet" href="./Styles/slider2.css">
+        <link rel="stylesheet" href="./Styles/slider3.css">
+        <link rel="stylesheet" href="./Styles//slider4.css">
+        <link rel="stylesheet" href="./Styles/slider5.css">
+        <link rel="stylesheet" href="./Styles/slider6.css">
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+
+        <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+
+        <title>
+            A B H A Y
+        </title>
+
+    </head>
+
+    <body
+        class="active">
+        <!-- Navbar Section Start -->
+        <header id="nav-menu">
+            <a href="#" class="logo">&lt;
+                <span>
+                    <span style="color: rgb(19, 60, 175);">A</span>bhay</span>
+                &gt;</a>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+
+            <ul class="navbar">
+                <li>
+                    <a href="#home" class="nav-link home">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link about">About</a>
+                </li>
+                <li>
+                    <a href="#skills" class="nav-link skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav-link projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link contact">Contact</a>
+                </li>
+
+                <li id="resume-button-1">
+                    <a href="./Media/Kishan-Sharma-Resume.pdf" target="_blank" download="Kishan-Sharma-Resume" class="nav-link resume" id="resume-link-1">
+                        Resume
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  &nbsp;
+                        <i class="fa-solid fa-cloud-arrow-down"></i>
+                    </a>
+                </li>
+
+
+                <div class="bx bx-moon" id="darkmode"></div>
             </ul>
-        </div>
-    </nav>
-    <div id="particles-js">
-     
-      <div class="header" id="home">
-        <h1>
-          <br>
-          <br>
-          <br>
-          <span class="site-title">Hello , i'm Abhay V</span>
-          <span class="site-description">•MERN Full Stack Web Developer<img src="https://camo.githubusercontent.com/beb64ff21c883e318e4f5db5231c2ba4175705bea1c9249e82a41ab375db4f75/68747470733a2f2f6d65646961322e67697068792e636f6d2f6d656469612f51737347456d706b79454f684243623765312f67697068792e6769663f6369643d656366303565343761306e336769316266716e74716d6f62386739616964316f796a327772336473336d67373030626c267269643d67697068792e676966" width="60" /></span>
-        </h1>
-        <div class="header-icons">
-         
-          <a class="project-link resumeClass" class="nav-link resume"
-           id="resume-link-1" target="_blank" href="https://drive.google.com/file/d/1lZWDtfK68mbIkWB0ZbkP9M13Kwc1MnP1/view?usp=sharing" >Resume
-            <i style="fill:white;" class=" fa fa fa-file-pdf-o" aria-hidden="true"></i>
-          </a>
-          
-        </div>
-        <!-- <div class="header-links">
-          <a class="link" href="#about" data-scroll>About Me</a>
-          <a class="link" href="#projects" data-scroll>Projects</a>
-          <a class="link" href="#contact" data-scroll>Contacts</a>
-        </div> -->
-      </div>
-      
-      <!-- <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a> -->
-    </div>
-
-    <!-- About Section -->
-    <section id="about">
-      <!-- User Introduction-->
-      <div class="user-details">
-        <h1>My Story</h1>
-        <picture>
-          <img
-            src="https://i.ibb.co/y4x9Sxn/image.jpg"
-            alt="Professional Me"
-            
-            style="border-radius: 50%;width: 50%;"
-
-          />
-        </picture>
-        <p style="font-size: larger;">
-          I am a Full stack web developer doing militry style coding and learning MERN Stack at Masai School. I have done various group as well
-          as individual projects in my coding journey. I also did my B.E. in Mechanical Engineering from Amravati University. After graduation
-          I have done job in plastic industry as management trainee for eight months. My interests are coding, reading about planets, browsing, exploring new areas.
-        </p>
-      </div>
-
-      <!-- User Specifics -->
-      <h1 id="skills" style="text-align:center; margin-bottom: -10px;">Technical Skills</h1>
-        <!-- class user -->
-        <!-- Technology Stack #1: Languages -->
-<!--        
-        <div class="tech">
-          <h2>Languages</h2>
-          <i class="devicon-javascript-plain colored"></i>
-          <i class="devicon-c-plain"></i>
-          <i class="devicon-java-plain"></i>
-          <p>My favorite languages for software engineering</p>
-        </div> -->
-
-        <!-- Technology Stack #2: Front-End -->
-        <!-- <div class="tech">
-          <h2>Front-End</h2>
-          <i class="devicon-react-original colored"></i>
-          <i class="devicon-bootstrap-plain-wordmark colored"></i>
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark colored"></i>
-          
-          <p>My preferred technologies for front-end web development and component design.</p>
-        </div> -->
-
-        <!-- Technology Stack #3: Back-End -->
-        <!-- <div class="tech">
-          <h2>Back-End</h2>
-          <i class="devicon-nodejs-plain colored"></i>
-          <i class="devicon-express-original-wordmark colored"></i>
-          <i class="devicon-mongodb-plain-wordmark colored"></i>
-          <p>My preferred technologies for back-end web programming and database architecture.</p>
-        </div> -->
-
-        <!-- Technology Stack #4: Tools -->
-        <!-- <div class="tech">
-          <h2>Tools</h2>
-          <i class="devicon-git-plain-wordmark colored"></i>
-          <i class="devicon-visualstudio-plain colored"></i>
-          <i class="devicon-github-plain-wordmark colored"></i>
-          
-          <p>My favorite tools for version control, code editing, and container orchestration.</p>
-        </div> -->
-      
-      <table class="user-table">
-
-        <thead>
-        <th>Front End
-        </th><th>Backend</th><th>Tools&Testing</th>
-        </thead>
-        <tbody>
-          <tr>
-            <td><img src="https://i.ibb.co/sjrBrtJ/html5.png" width="60" alt="html5"></td>
-            <td><img src="https://static-00.iconduck.com/assets.00/node-js-icon-1901x2048-mk1e13df.png" width="60" alt="node js"></td>
-            <td><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="60" alt="github"></td>
-          </tr>
-
-          <tr>
-            <td><img src="https://icon-library.com/images/css3-icon/css3-icon-10.jpg" width="60" alt="css3"></td>
-            <td><img src="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png" width="60" alt="express js"></td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png" width="60" alt=""></td>
-          </tr>
-          <tr>
-            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwwRVz4kn94y0uE_uL3v80WypH6mVoIAa__wEcFiWAx4soHZiQThAQJ9vbhFTnz-Z-ffQ&usqp=CAU"width="60" alt=""></td>
-            <td><img src="https://cyclr.com/wp-content/uploads/2022/03/ext-553.png" width="90" alt=""></td>
-            <td><img src="https://asset.brandfetch.io/idIq_kF0rb/idv3zwmSiY.jpeg" width="90" alt=""></td>
-          </tr>
-          <tr>
-            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx6TjpKHbe3g6pyol8tuHVZjypJVmW1IYLV7xcVR1aCA&s" width="60" alt=""></td>
-            <td><img src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" width="60" alt=""></td>
-            <td><img src="https://global-uploads.webflow.com/618fa90c201104b94458e1fb/6299f30f2faf2fa2cf4fd410_e_9m1f1qNoZwMujHse5RZamP4IndE8iHPxC3bTTm-CovEScsZnPbjBa_VVjkYc-ylmqPjJVwES_8Q3XD84IXaTw3n_QnYvvsotCQi5Hf3dUMmmUOiI9eVp-AK5sF3jV2Kj0N_XWEPpZNsHwPZA.png" width="80" alt=""></td>
-          </tr>
-          <tr>
-            <td><img src="https://static-00.iconduck.com/assets.00/redux-icon-512x486-1n8k02rk.png" width="60" alt=""></td>
-          </tr>
-          <tr>
-            <td><img src="https://pbs.twimg.com/profile_images/1244925541448286208/rzylUjaf_400x400.jpg" width="60" alt=""></td>
-          </tr>
-          <tr>
-            <td><img src="https://cdn-icons-png.flaticon.com/512/919/919832.png" width="60" alt=""></td>
-          </tr>
-         
-
-        </tbody>
-      </table>
-    </section>
-
-    <h1 style="text-align: center; ">My Statistics</h1>
-    <!-- Skills Content -->
-    <div id="imageContainer">
-      <div style="height:200px">
-        <!-- <img class="gitClass" srcset="./assets/img/jpg/Git.PNG" > -->
-        <img style="height: 100%;" id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=abii225&show_icons=true&theme=radical" alt="GitHub Stats Card">
-        
-      </div>
-      <div style="height:200px">
-        <img style="height: 100%;" id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=abii225&theme=gruvbox-duo&hide_border=true&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&card_width=350" alt="GitHub Streak Stats">
-      </div>
-    </div>
-    <div style=" width:50%;margin: auto;padding-top: 30px;">
-      <img style="display:block;width:50%;margin:auto" id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abii225&layout=donut" alt="GitHub Top Languages">
-    </div>
-<!-- Projects -->
-
-       <h1 style="text-align:center;">My Github Calender</h1>
-    <!-- <div class="calender_class" > -->
-      
-      <!-- Technology Stack #1: Languages -->
-      <!-- <div class="calendar"> -->
-        <!-- Loading stuff -->
-        Loading the data just for you.
-    <!-- </div> -->
-    
-    <!-- </div> -->
-
-  
-
-    <!-- Projects Section -->
-    <section id="projects">
-      
-      <div class="user-details">
-        <h1>Featured Projects</h1>
-      </div>
-      <!-- User Project #I -->
-
-      <div class="user-projects">
-        <div style="border: 1px solid black; padding: 10px;" class="images-left">
-          <picture >
-            <img type="image/webp" srcset="./assets/img/jpg/Coschedule.jpg" alt="Perpetual Crusades" />
-            
-          </picture>
-        </div>
-        <div class="contents-right" style="text-align: center">
-          <h3>Coschedule Clone</h3>
-          <img
-            height="32"
-            width="32"
-            src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
-           
-          />
-          &nbsp;
-          <img
-            height="32"
-            width="32"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
-            
-          />
-          &nbsp;
-          <img height="32" width="32" src="https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg" />
-  
-          &nbsp;
-           <a href=""><img height="32" width="32" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" /></a>
-          
-          
-  
-           <p style="text-align: justify">
-            CoSchedule is the marketing industry's leading provider of content calendar,
-            content optimization, and marketing education products. This was a collaborative
-            project buit by team of 5 members in 5 days.
-          </p>
-          <a class="project-link" target="_blank" href="https://coschedule-seven.vercel.app/"
-            >Check it out!</a
-          >
-          <a class="project-link" target="_blank" href="https://github.com/sangle2022/ripe-receipt-7221">Github Link</a>
-        </div>
-      </div>
-
-     <!-- User Project #1: Personal Résumé Website -->
-     <div class="user-projects">
-      <div class="images-right">
-        
-          <img type="image/webp" srcset="./assets/img/jpg/Reliance.jpg" alt="Personal Website" />
-         
-        
-      </div>
-      <div class="contents" style="text-align: center">
-        <h3>Reliance Digital Clone</h3>
-        <div>
-          <!-- -->
-          <img
-          height="32"
-          width="32"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
-          />
-        &nbsp;
-          
-          
-          <img
-          height="32"
-          width="32"
-          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAjVBMVEVWPXz///9JK3TRzdrJxNNQNXiPgqVDIXBNMHazq8FPM3dIKXNSN3lBHm9UOntJKnPi3+dFJXGIeqCdkrDX095CH2+/uMtfSIJwXo6UiKn08/ZsWYzu7PGEdZ339vipoLpjTYXd2eNaQn91Y5J8bJe7s8ebj67o5uxmUYexqL82AWg8FWyrobtpVYl5aJU+BN/LAAAG9klEQVR4nO2d23aqOhRAA0KBBNCAouCt3no5Z7f//3kHtbbu1ia2JmuFnMxHHxjMgSQhWRfiXWRQlfPJmHSF8WReVoPLKuTCb0HBWUzTHPu+f0Ce0pjxIrjGcPbA/RD7hn9J6PvlTGK4qDOKfZ83QbN6ITJMeLf99lC++9awmfaxb08J/Ulz2XDIUux7U0TKhpcMqwz7xhSSVV8NkxH2XSlltPtsWNklePYU3wyHNv1Fj2TDc8OGYd+PBvrNmeHUllH0nHTyYZj42HejhX5yMlxw7HvRBF+8GdZdXWnLoPXRcGbfOHoiaw6GZfdX299By4OhjTPFif7eMLBzID3iB61hYes4sycsWkNbp4ojzCMDm1/D1nBAqhj7JrQSV8TiuWIPLUlh46L7g7Qgky5t/P6cfEK6s3X/O2z3czgcDofD4XA4HA5DoP6NxH7cQkNTQ7DoMriZqkqW5d3reMSZT43bU/HPwjpupllVyy2NYmrS4/R7Cg2PzIKa8NgYSQ2Gex6Xa2bIYYMmw5bhfGSEoz7D9u96NzJg3NFp2P5ZN/iHKnoNPa9CjybUbeg1T8gnR9oNPW+Oe0YNYOjVqIoQht4d5h8VxNDbIM6MMIZejreIAzJc4cX3Ahl6NdpZPJShhzaeghkmWOMpmKFnv+ES6U2EM5xFtht6U5w5EdDwGedNlBiueiJWgy/pkAKQQgwlhkUk2AvuM8aj9XbZWwiv8Q5OmKjE8E66ZM5T6kfbS/m7X9igfO7fbHggZesr3mecKEo1hu2j5HOp4Q5lqFFlSAi9lxn2UNam6gwJnUoMcQZThYYkLsWGM5TBVKUhyR6FF1ugrNuUGoaS0ab7hiQTz/0WGPrimd8CQyoeaywwTLeii+Gkuqo1zIWzvgWzBckv1QN6Z9X5Gb8lFF0MJ1ES8hnifOQrNnwRXQwnFVTxWCpc1OAczyieD5eCa+EMpZBrGpwPYMWGI9G6FGebBvDbwtA9758ZRivBpbCyeVUaUuFIihUdpdAwD0VvYWno6doPDFMm2sPAegsVGsZj4RkGXpknRYY0E831nrfEC4tSYJiHPi8b4WV6iDWCZGdPPJbAovROdi4zQHsJ5YbBcyJkF6zET2/PI8MMawc4A15x1Lh9/YbYJTm1G9bYBYI0Gz7eo1fP0WtYZvipMzoNK4r+AIlOw+b+HyOSn3Q+w8dlip5toX2k6U0ibEfts8VqgjvhQ6xpegR1wAGJ3HvArFMNE5s4jPHeRqDoy+be/lj9DZYiXAQtVmYQYIzwk5G7+ipZ4CziAA2Rav9DGuLse0sM5/9GYkYRfdp+26rpM2uE/6mK/dKUxjyurymw0UPY0lC2qx8yshNe6gDCKanKsyd/LX2OK/iHqPSENM8eZIrwqUGKY6L8V4khfFyUYkMSFxLFzhsSLhlvwBOClRse+4p8Tw+6cZp6Q0mcMHh+l3pDwsSGr8BTogZDSTj7H+DFqQbDsBZeEjr7SYNhvhZeEjpEUYOhOH4PfKjRYcjE31Jj2IWbDkPJNbewg6kOw7hSf83fo8VQvHADDsNEMAQukIFhCDvlazE0alGjw7Av3syw4F/KxdUybBhphJeE7kepY+Ut2ciYd37Gl3w9eS+dX7VJ/qTQe1HqDX3JVlTT9W+L/EnyCIfAW1HKDUeywkrQpelUG2bSowvgoVSxYcjkZ2zQ+U8qDXO+kQfuD7trmPL7a+phgSfpKTHMw5jx4rouC+BH+bfUazvVbOPj4vnaJhLGna6Ja+4d6+7J370zgJdsckPVDI075VYN/CMENqwQkoFhDQ2MiVJLgRFjCmkYmFhjSCVI6dyAhhhhe6CGL7ZHQU9sj2SfWp6NMBvjtfAAMez1EZO7IAxR054ADIdr3FxZ3YbNPEJOldVruCjRU0j19s57iNDmCAjDYGuCnzbDXu376P/PIxoMB7s57xvx+A4o7SW7GATLV84RU2IvoKIfcBBUuz9l8eJHJvYDvr2n876t86GpswklIhwOh8PhcDgcDofjf8wY+wY0MyYTu7888wkpzNs3UElaEKyK/EDQklQmFAnVR1wRpCa0ULABQWurAAPzCFKTISDCojXEaYUFhB+0hlb/TZm3N7R4vtgXSmkNZ8h13TWSzQ6G0DmLcByKiOwNcdrQAhAt3gy9BLo0EQz9xDsZIjaq0Uh6bIN9NGxsnDFYc2aIVBtUK6dEv1NfTOxWIMrJThVS3jt/JnYpjt7TiT96m1r1FLOPGjdn3VuHBvRaUEN6not63p+2mdoxL/an5/lwf3fgTaLuL+AoT/5y+tRjeFFn3f7SoFn9qRjaly7Ks5L5XX2Qqc/KL/n8l/pEBwVnMU27tFW8LyjNWHEpV/qbTtiDqpxPOrPhv37aFMvvioL/B1N4cic37qzOAAAAAElFTkSuQmCC"
-          />
-           &nbsp;
-          
-          <img height="32" width="32" src="https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg" />
-
-          &nbsp;
-          <img height="32" width="32" src="https://images.opencollective.com/chakra-ui-pro/61bd1dd/logo/256.png" />
-          &nbsp;
-          <a href="https://github.com//violet-maid-5421"><img height="32" width="32" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" /></a>
-          
-
-        </div>
-        <p style="text-align: justify">
-         This was an Individual Project.
-         In these website I created on Homepage, Login page. I
-         have created these website using mainly React, HTML,
-         CSS, Javascript and also used Chakra and Bootstrap
-         for UI.
-        </p>
-        <a class="project-link" target="_blank" href="https://reliance-digital-seven.vercel.app/">Check it out!</a>
-        <a class="project-link" target="_blank" href="https://github.com//violet-maid-5421">Github Link</a>
-      </div>
-    </div>
+        </header>
+        <!-- Navbar Section End -->
 
 
-     <!-- User Project #2: -->
-     <div class="user-projects">
-      <div class="images-left">
-        <picture>
-          <img type="image/webp" srcset="./assets/img/jpg/Perpetual-Crusades.jpg" alt="Perpetual Crusades" />
-          
-        </picture>
-      </div>
-      <div class="contents-right" style="text-align: center">
-        <h3>BigBasket Clone</h3>
-        <img
-          height="32"
-          width="32"
-          src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
-         
-        />
-        &nbsp;
-        <img
-          height="32"
-          width="32"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
-          
-        />
-        &nbsp;
-        <img height="32" width="32" src="https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg" />
+        <!-- Home Section Start -->
+        <section id="home">
+            <div class="home-text">
+                <span>Hello, I'm</span>
+                <h1 id="user-detail-name">Abhay V</h1>
 
-        &nbsp;
-         <a href="https://github.com//BigBasket"><img height="32" width="32" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" /></a>
-        
-        
+                <h2 style="font-size: 24px;  letter-spacing: 1px;">
+                    And I'm
+                    <span class="typing1" style="font-size: 24px; letter-spacing: 1px;"></span>
+                </h2>
 
-         <p style="text-align: justify">
-          This was a group project. We have created these website with the help of HTML, CSS
-          And Javascript. My work was here to create Navbar, SignUp,
-          Login, Logout part.
-        </p>
-        <a class="project-link" target="_blank" href="https://venerable-basbousa-4536f8.netlify.app/"
-          >Check it out!</a
-        >
-        <a class="project-link" target="_blank" href="https://github.com//BigBasket">Github Link</a>
-      </div>
-    </div>
+                <a href="#contact" class="btn ccme">Contact Me</a>
+            </div>
+            <div class="about-img">
+                <img src="https://img.freepik.com/premium-vector/man-working-home_28923-46.jpg?w=740" alt="img">
+            </div>
+        </section>
+        <!-- Home Section End -->
 
 
-      <!-- User Project #3 -->
-      <div class="user-projects">
-        <div class="images-right">
-          
-            <img type="image/webp" srcset="./assets/img/jpg/Personal-Resume-Website.jpg" alt="Personal Website" />
-           
-          
-        </div>
-        <div class="contents" style="text-align: center">
-          <h3>Bath & Body Works Clone</h3>
-          <div>
-            <img
-              height="32"
-              width="32"
-              src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
-              />
-            &nbsp;
-            <img
-              height="32"
-              width="32"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
-             
-            />
-            &nbsp;
-            <img height="32" width="32" src="https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg" />
+        <!-- About Section Start -->
+        <section class="about section" id="about">
+            <div class="heading" style="margin-bottom: 60px;">
+                <h2>About Me</h2>
+                <span>Introduction</span>
+            </div>
 
-            &nbsp;
-            <a href="https://github.com//BathBodyWorks"><img height="32" width="32" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" /></a>
+            <div class="about-container">
+                <div class="homeImage">
+                    <img class="home-img" src="./Images/0.jpeg" alt="">
+                </div>
+                <div>
+                    <p class="about-text" id="user-detail-intro">Proficient MERN-stack Full Stack Web Developer with a strong foundation in building solo and collaborative projects
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  . Adept at crafting innovative web solutions, blending technical expertise with teamwork and problem-solving skills.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Ready to drive web development excellence.</p>
+
+                    <div id="yourSP">
+
+                        <div>
+                            <h3>1000+ Hours coding</h3>
+                        </div>
+                        <div>
+                            <h3>100+ Hours soft skills</h3>
+                        </div>
+                        <div>
+                            <h3>500+ DSA problem solved (masai)</h3>
+                        </div>
+                        <div>
+                            <h3>100+ Assignments completed</h3>
+                        </div>
+                        <div>
+                            <h3>3+ Collabrotive projects</h3>
+                        </div>
+                        <div>
+                            <h3>3 Solo projects</h3>
+                        </div>
+                    </div>
+                    <li id="resume-button-2">
+                        <a href="https://drive.google.com/file/d/1lZWDtfK68mbIkWB0ZbkP9M13Kwc1MnP1/view?usp=sharing" target="_blank" download="Abhay-v-Resume" class="nav-link resume btn" id="resume-link-2">
+
+                            Resume&nbsp;
+                            <i class="fa-solid fa-cloud-arrow-down"></i>
+                        </a>
+                    </li>
 
 
-          </div>
-          <p style="text-align: justify">
-           This was a group project. BathBadyWorks is American retail store chain which mainly sells soaps,
-            perfumes, candles, etc. We created this clone using HTML, CSS and Javascript. My work was here to
-            create Homepage and SignUp and Login Page.
-          </p>
-          <a class="project-link" target="_blank" href="https://bath-body-works.vercel.app/">Check it out!</a>
-          <a class="project-link" target="_blank" href="https://github.com//BathBodyWorks">Github Link</a>
-
-        </div>
-      </div>
+                </div>
 
 
-      <!-- Use Project #4: Valuto: Account Management System -->
-      <div class="user-projects">
-        <div class="images-left">
-            <img
-              type="image/webp"
-              srcset="./assets/img/jpg/Weather.jpg"
-              alt="Valuto: Account Management System"
-            />
-            
-          
-        </div>
-        <div class="contents-right" style="text-align: center">
-          <h3>Weather App</h3>
-          <div>
-            <img
-            height="32"
-            width="32"
-            src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
-           
-          />
-          &nbsp;
-          <img
-            height="32"
-            width="32"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
-            
-          />
-          &nbsp;
-          <img height="32" width="32" src="https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg" />
-  
-          &nbsp;
-           <a href=""><img height="32" width="32" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" /></a>
-          </div>
-          <p style="text-align: justify">
-            This is a Weather App made by using HTML, CSS and Javascript. This app will give you the information
-            about weather for current day and for next three days also. This app also allow you to see your city or location
-            on google map.
-          </p>
-          <a class="project-link" target="_blank" href="https://remarkable-chaja-68edb9.netlify.app/">
-            Check it out!
-          </a>
-          <a class="project-link" target="_blank" href="https://github.com//Weather-App">Github Link</a>
-         
+            </div>
+        </section>
+        <!-- About Section End -->
 
-        </div>
-      </div>
-    </section>
 
-    <footer class="footer" id="contact">
-      <h1 style="color: white;">Contact</h1>
-      <div class="contact_me">
-        <p>Contact Number - +91 7994059967</p>
-        <p ><a id="emailHover"  href="mailto:abhayv225@gmail.com">Email Address- abhayv225@gmail.com </a> </p>
-        <p>Address- Kozhikode , Kerala - India </p>
-        <a class="project-link" id="linkdk" style="padding: 5px 40px 5px 40px ;" target="_blank" href="https://www.linkedin.com/in/abhay-v-935738243/"
-        ><i style="font-size:40px ;" class="icon fa fa-linkedin " aria-hidden="true"></i></a>
+        <!-- Skills Section Start -->
 
-        <a class="project-link" id="linkd" style="padding: 5px 40px 5px 40px ;"  target="_blank" href="https://github.com/abii225"
-          ><i style="font-size:40px ;" class="fa fa-github" aria-hidden="true"></i></a>
+        <section class="skills" id="skills">
+            <div class="heading">
+                <h2>Skills</h2>
+                <span style="color:aqua">My Skills</span>
+            </div>
+            <div class="skills-container" style="margin-top: 2rem;">
 
-          <a class="project-link" id="linkd" style="padding: 5px 40px 5px 40px ;" href="mailto:abhayv225@gmail.com"  target="_blank" href="https://github.com/abii225"
-          ><i style="font-size:40px ;" class="icon fa fa-envelope" aria-hidden="true"></i></a>
-      
-         
-        </div>
-    </footer>
+                <div class="skills-card">
+                    <div>
+                        <img class="skills-card-img" src="https://i.postimg.cc/fRbKFQ8X/Html.png" alt="">
+                    </div>
+                    <p class="skills-card-name green">HTML</p>
+                </div>
+                <div class="skills-card">
+                    <div>
+                        <img class="skills-card-img" src="https://i.postimg.cc/VNpDnZBt/Css.png" alt="">
+                    </div>
+                    <p class="skills-card-name green">CSS</p>
+                </div>
+                <div class="skills-card">
+                    <div>
+                        <img class="skills-card-img" src="https://www.javascripttutorial.net/wp-content/uploads/2021/04/JavaScript-Tutorial.svg" alt="">
+                    </div>
+                    <p class="skills-card-name green">JavaScript</p>
+                </div>
+                <div class="skills-card">
+                    <div>
+                        <img style="margin-bottom: 8px;" class="skills-card-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" alt="">
+                    </div>
+                    <p class="skills-card-name green">ReactJS</p>
+                </div>
 
-    <!-- Import JS: Particles Theme -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <!-- Import JS: Sweet Scroll -->
-    <script src="./assets/js/sweet-scroll.min.js"></script>
-    <!-- Import JS: Google Analytics -->
-    <script src="./assets/js/google-analytics.js"></script>
-    <!-- Import JS: Main Script -->
-    <script src="./assets/js/main.js"></script>
 
-    <script src="./assets/js/nav.js" type="module"></script>
-<!--  -->
+                <div class="skills-card">
+                    <div>
+                        <img class="skills-card-img" src="https://cdn.worldvectorlogo.com/logos/redux.svg" alt="">
+                    </div>
+                    <p class="skills-card-name green">Redux</p>
+                </div>
+
+                <div class="skills-card">
+                    <div>
+                        <img class="skills-card-img" src="https://avatars.githubusercontent.com/u/54212428?s=280&v=4" alt="">
+                    </div>
+                    <p class="skills-card-name green">Chakra UI</p>
+                </div>
+
+                <div class="skills-card">
+                    <div>
+                        <img class="skills-card-img" src="https://rohithanss.github.io/skills/nodejs.png" alt="">
+                    </div>
+                    <p class="skills-card-name green">NodeJS</p>
+                </div>
+
+
+                <div class="skills-card">
+                    <div>
+                        <img class="skills-card-img" src="https://rohithanss.github.io/skills/expressJs.png" alt="">
+                    </div>
+                    <p class="skills-card-name green">ExpressJS</p>
+                </div>
+                <div class="skills-card">
+                    <div>
+                        <img class="skills-card-img" src="https://hanumat-sharan.github.io/static/media/mongodb-seeklogo.com.1aca075d5cce0819fea7ea0902d94ce4.svg" alt="">
+                    </div>
+                    <p class="skills-card-name green">MongoDB</p>
+                </div>
+                <div class="skills-card">
+                    <div>
+                        <img class="skills-card-img" src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" alt="">
+
+                    </div>
+                    <p class="skills-card-name green">SQL</p>
+                </div>
+                <div class="skills-card">
+                    <div>
+                        <img class="skills-card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" alt="">
+                    </div>
+                    <p class="skills-card-name green">TypeScript</p>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <section class="skills too" id="skills" style="margin-top: 0px;">
+            <div class="heading" style="margin-bottom: 20px;">
+                <h2>Tools</h2>
+                <span style="color:aqua">My tools</span>
+            </div>
+
+            <div class="skills-container">
+                <div class="skills-card">
+                    <div>
+                        <img class="skills-card-img" src="https://i.postimg.cc/rySQRJdd/github.png" alt="">
+                    </div>
+                    <p class="skills-card-name green">GitHub</p>
+                </div>
+
+                <div class="skills-card">
+                    <div>
+                        <img class="skills-card-img" src="https://rohithanss.github.io/skills/vscode.png" alt="">
+                    </div>
+                    <p class="skills-card-name green">VS Code</p>
+                </div>
+                <div class="skills-card">
+                    <div>
+                        <img class="skills-card-img" src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="">
+                    </div>
+                    <p class="skills-card-name green">Postman</p>
+                </div>
+
+            </div>
+        </section>
+        <!-- Skills Section End -->
+
+
+        <section id="projects">
+            <div class="heading" style="margin-bottom: 30px;">
+                <h2>Projects</h2>
+                <span>My projects</span>
+            </div>
+
+
+            <div id="projects2">
+
+                <div
+                    class="project-card">
+                    <!-- Carousal -->
+                    <div class="slider1">
+                        <div class="list1">
+                            <img src="https://camo.githubusercontent.com/30ddd70ffaea1bc1593f0ca3dd6968423a27fe2d0f54703384017fd2f02bd24b/68747470733a2f2f6465762d746f2d75706c6f6164732e73332e616d617a6f6e6177732e636f6d2f75706c6f6164732f61727469636c65732f306e6873647270337467756c79786668373772312e706e67" alt="">
+
+                        </div>
+                    </div>
+
+                    <!-- Details -->
+                    <div class="project-details">
+                        <div>
+                            <h1 class="project-title white">Wood Heart &nbsp;
+                            </h1>
+                            <p class="project-description green poppins"></p>
+                            Developed a robust furniture retail website in a collaborative effort over five days. Users can register, browse a diverse catalog, and securely purchase furniture items. 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        The platform features a dedicated section for user reviews and opinions on products, enhancing engagement and feedback.
+                        </div>
+                        <div>
+                            <h2 class="white">Tech Stacks :</h2>
+                            <div class="project-tech-stack">
+                                <div>
+                                    <!-- CSS  -->
+                                    <img src="https://i.postimg.cc/VNpDnZBt/Css.png" alt=""/>
+                                </div>
+
+                                <div>
+                                    <!-- React  -->
+                                    <img style="margin-bottom: 8px;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" alt="">
+
+                                </div>
+
+                                <div>
+                                    <!-- chakra ui  -->
+                                    <img src="https://cdn.worldvectorlogo.com/logos/redux.svg" alt="">
+
+                                </div>
+                                <div>
+                                    <!-- typescript  -->
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" alt="">
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="project-btn-div">
+                            <a target="_blank" href="https://github.com/abii225/posh-division-4370" class="project-github-link btn2">
+                                CodeBase
+                            </a>
+                            <a target="_blank" href="https://wood-heart.vercel.app/" class="project-github-link project-deployed-link btn2">Live</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div
+                    class="project-card">
+                    <!-- Carousal -->
+                    <div class="slider1">
+                        <div class="list1">
+                            <img src="https://camo.githubusercontent.com/ef2bae3892b1bc28173ebb2e2acceb5db88e8468e8864fa1662a833e3980bee5/68747470733a2f2f692e706f7374696d672e63632f68507a32795154442f486f6d652e6a7067" alt="">
+
+
+                        </div>
+                    </div>
+
+                    <!-- Details -->
+                    <div class="project-details">
+                        <div>
+                            <h1 class="project-title white">Precious Charms &nbsp;
+                            </h1>
+                            <p class="project-description green poppins"></p>
+                            Precious Charms, an e-commerce site, excels in jewelry, watches, and accessories. Powered by React, TypeScript, and Chakra UI, it delivers a smooth shopping experience. Users effortlessly browse, filter, and purchase items. The Admin section simplifies product and user management, ensuring a seamless and aesthetically pleasing interface.
+
+
+                        </div>
+                        <div>
+                            <h2 class="white">Tech Stacks :</h2>
+                            <div class="project-tech-stack">
+                                <div>
+                                    <!-- CSS  -->
+                                    <img src="https://i.postimg.cc/VNpDnZBt/Css.png" alt=""/>
+                                </div>
+
+                                <div>
+                                    <!-- React  -->
+                                    <img style="margin-bottom: 8px;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" alt="">
+
+                                </div>
+
+                                <div>
+                                    <!-- chakra ui  -->
+                                    <img src="https://cdn.worldvectorlogo.com/logos/redux.svg" alt="">
+
+                                </div>
+                                <div>
+                                    <!-- typescript  -->
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" alt="">
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="project-btn-div">
+                            <a target="_blank" href="https://github.com/abii225/posh-division-4370" class="project-github-link btn2">
+                                CodeBase
+                            </a>
+                            <a target="_blank" href="https://wood-heart.vercel.app/" class="project-github-link project-deployed-link btn2">Live</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div
+                    class="project-card">
+                    <!-- Carousal -->
+                    <div class="slider1">
+                        <div class="list1">
+                            <img src="../blossom/1.png" alt="">
+
+
+                        </div>
+                    </div>
+
+                    <!-- Details -->
+                    <div class="project-details">
+                        <div>
+                            <h1 class="project-title white">Blossom Learning website &nbsp;
+                            </h1>
+                            <p class="project-description green poppins"></p>
+                            Developed a robust furniture retail website in a collaborative effort over five days. Users can register, browse a diverse catalog, and securely purchase furniture items. 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                The platform features a dedicated section for user reviews and opinions on products, enhancing engagement and feedback.
+                        </div>
+                        <div>
+                            <h2 class="white">Tech Stacks :</h2>
+                            <div class="project-tech-stack">
+                                <div>
+                                    <!-- CSS  -->
+                                    <img src="https://i.postimg.cc/VNpDnZBt/Css.png" alt=""/>
+                                </div>
+
+                                <div>
+                                    <!-- React  -->
+                                    <img style="margin-bottom: 8px;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" alt="">
+
+                                </div>
+
+                                <div>
+                                    <!-- chakra ui  -->
+                                    <img src="https://cdn.worldvectorlogo.com/logos/redux.svg" alt="">
+
+                                </div>
+                                <div>
+                                    <!-- typescript  -->
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" alt="">
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="project-btn-div">
+                            <a target="_blank" href="https://github.com/abii225/posh-division-4370" class="project-github-link btn2">
+                                CodeBase
+                            </a>
+                            <a target="_blank" href="https://wood-heart.vercel.app/" class="project-github-link project-deployed-link btn2">Live</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="project-card">
+                    <!-- Carousal -->
+                    <div class="slider1">
+                        <div class="list1">
+                            <img src="../blossom/1.png" alt="">
+
+
+                        </div>
+                    </div>
+
+                    <!-- Details -->
+                    <div class="project-details">
+                        <div>
+                            <h1 class="project-title white">Trypot-Nation Travel website&nbsp;
+                            </h1>
+                            <p class="project-description green poppins"></p>
+                            Developed a robust furniture retail website in a collaborative effort over five days. Users can register, browse a diverse catalog, and securely purchase furniture items. 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            The platform features a dedicated section for user reviews and opinions on products, enhancing engagement and feedback.
+                        </div>
+                        <div>
+                            <h2 class="white">Tech Stacks :</h2>
+                            <div class="project-tech-stack">
+                                <div>
+                                    <!-- CSS  -->
+                                    <img src="https://i.postimg.cc/VNpDnZBt/Css.png" alt=""/>
+                                </div>
+
+                                <div>
+                                    <!-- React  -->
+                                    <img style="margin-bottom: 8px;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" alt="">
+
+                                </div>
+
+                                <div>
+                                    <!-- chakra ui  -->
+                                    <img src="https://cdn.worldvectorlogo.com/logos/redux.svg" alt="">
+
+                                </div>
+                                <div>
+                                    <!-- typescript  -->
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" alt="">
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="project-btn-div">
+                            <a target="_blank" href="https://github.com/abii225/posh-division-4370" class="project-github-link btn2">
+                                CodeBase
+                            </a>
+                            <a target="_blank" href="https://wood-heart.vercel.app/" class="project-github-link project-deployed-link btn2">Live</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ======================GitHub ======================= -->
+        <section id="stats" style="height: auto;">
+            <div class="heading" style="margin-bottom: 30px;">
+                <h2>GitHub Stats</h2>
+                <span>My github</span>
+            </div>
+            <div id="allGit" style="width: 100%;">
+                <div>
+                    <!-- <img id="github-top-langs"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mrkishansharma&lans-count=4" alt=""> -->
+                    <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=abii225&show_icons=true&locale=en" alt="Github">
+
+                </div>
+
+                <div id="statsimg">
+                    <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=abii225&" alt="Github">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="calendar">
+            <h2 class="mid">Github Calendar</h2>
+            <hr style="margin-bottom: 20px; margin-top: 5px;">
+            <div
+                class="react-activity-calendar calendar">
+                <!-- Loading stuff -->
+                Loading the data just for you.
+            </div>
+        </section>
+
+
+        <!-- ======================Contact ======================= -->
+        <section id="contact">
+
+            <div class="form">
+                <div class="contact-info">
+                    <h3 class="title">Let's get in touch</h3>
+                    <p class="text">
+                        Feel free to contact me to know more about me. You can call me or
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  send mail to me I will surely rich out to you in nearest time.
+                    </p>
+
+                    <div class="info">
+                        <div class="information">
+                            <img src="Media/location.png" class="icon" alt=""/>
+                            <p>Kozhikode , Kerala (India)</p>
+                        </div>
+                        <div class="information" id="contact-email">
+                            <img src="Media/mail.png" class="icon" alt=""/>
+                            <p>abhayv225@gmail.com</p>
+                        </div>
+                        <div class="information">
+                            <img src="Media/call.png" class="icon" alt=""/>
+                            <p>+91 7994059967</p>
+                        </div>
+                    </div>
+
+                    <div class="social-media">
+                        <p>Connect with Me :</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/abii225" target="_blank" id="contact-github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/abhay-v-935738243/" target="_blank" id="contact-linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.instagram.com/bliss.rar/" target="_blank" id="contact-phone">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <!-- <a href="https://www.hackerrank.com/kishansharma6377?hr_r=1" target="_blank" id="contact-hackerrank">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <i class="fab fa-hackerrank"></i>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <span class="circle one"></span>
+                    <span class="circle two"></span>
+
+
+                    <form action="index.html" autocomplete="off" onsubmit="handleSubmit(event)">
+                        <h3 class="title">Contact Me</h3>
+                        <div class="input-container">
+                            <input type="text" name="name" class="input" id="contactName" required/>
+                            <label for="">Your Name</label>
+                            <span>Your Name</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" name="email" class="input" id="contactEmail" required/>
+                            <label for="">Email</label>
+                            <span>Email</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="tel" name="phone" id="ContactPhoneNumber" class="input"/>
+                            <label for="">Phone</label>
+                            <span>Phone</span>
+                        </div>
+                        <div class="input-container textarea">
+                            <textarea name="message" class="input" id="contactMessage" required></textarea>
+                            <label for="">Message</label>
+                            <span>Message</span>
+                        </div>
+                        <!-- <input type="submit" value="Send" class="btn" id="contactSubmit" style="color: white;" /> -->
+                        <button type="submit" class="btn" id="contactSubmit" style="color: white;">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+    </body>
+
 </html>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script src="./Scripts/index.js"></script>
+<script src="./Scripts/slider6.js"></script>
+<script src="./Scripts/slider5.js"></script>
+<script src="./Scripts/slider4.js"></script>
+<script src="./Scripts/slider3.js"></script>
+<script src="./Scripts/slider2.js"></script>
+<script src="./Scripts/slider1.js"></script>
+
+<script>
+    GitHubCalendar(".calendar", "abii225", {
+        responsive: true,
+        global_stats: true,
+        tooltips: true
+    });
+    GitHubCalendar(".calendar", "abii225", {
+        responsive: true,
+        global_stats: true,
+        tooltips: true
+    });
+</script>
+
+<!-- service_icbqhz9 -->
