@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
+
 #allGit {
   display: flex;
   flex-direction: row;
@@ -47,7 +48,7 @@
 }
 
 :root {
-  --main-color: #0078ff;
+--main-color:#539165;
   --text-color: #fff;
   --bg-color: #0f0c27;
   --hover: #0064d6;
@@ -62,8 +63,8 @@ section {
 }
 
 body.active {
-  --bg-color: #fff;
-  --text-color: #0f0c27;
+  --bg-color: #17ca5f;
+  --text-color: #ffffff;
 
 }
 
@@ -316,29 +317,32 @@ skills-container>div>div {
   display: grid;
   /* width: 80%; */
   margin: auto;
+  gap:20px;
   /* border: 1px solid wheat; */
   grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 40px;
   grid-row-gap: 30px;
+   justify-content: center;
+  align-items: center;
 }
 
 .skills-container>div {
   /* border: 5px solid #0078ff; */
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  border: 1px solid gray;
+  /* box-shadow: rgba(74, 172, 123, 0.522) 0px 1px 3px 0px, rgba(86, 176, 140, 0.653) 0px 0px 0px 1px; */
+  /* border: 1px solid gray; */
   /* background-color: #007bff; */
   border-radius: 15px;
-  padding: 30px 20px 10px;
+  padding:10px;
   text-align: center;
 }
 .skills-container>div:hover {
   /* letter-spacing: 2px; */
   cursor: pointer;  
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  box-shadow: rgba(74, 172, 123, 0.522) 0px 1px 3px 0px, rgba(86, 176, 140, 0.653) 0px 0px 0px 1px;
 }
 
 .skills-container img {
-  width: 60%;
+  width:60%;
 
 }
 
@@ -380,7 +384,7 @@ skills-container>div>div {
 
 .project-card {
   /* border: 5px solid #0078ff; */
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+box-shadow: rgba(74, 172, 123, 0.522) 0px 1px 3px 0px, rgba(86, 176, 140, 0.653) 0px 0px 0px 1px;
   border: 1px solid gray;
   height: auto;
   display: flex;
