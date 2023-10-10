@@ -48,16 +48,52 @@ darkmode.onclick = () => {
 
 const resume = document.getElementById("resume-button-1");
 resume.onclick = (e) => {
-  // e.preventDefault()
-  window.open("./Media/Abhay-v_Resume.pdf", "_blank")
-  // console.log("Click");
+
+   // Create a temporary link
+    e.preventDefault(); // Prevent the default link behavior
+window.open("https://drive.google.com/file/d/1lZWDtfK68mbIkWB0ZbkP9M13Kwc1MnP1/view?usp=sharing", "_blank")
+    // Create a temporary link
+    let link = document.createElement('a');
+    
+    // Set the link's attributes
+    link.href = './Media/ABHAY V_Resume.pdf'; // Replace with the actual path to your resume PDF
+    link.target = '_blank';
+    link.download = 'ABHAY V_Resume.pdf'; // Replace with the desired file name
+
+    // Append the link to the document
+    document.body.appendChild(link);
+
+    // Trigger a click on the link
+    link.click();
+
+    // Remove the link from the document
+    document.body.removeChild(link);
 }
 
 const containerResume = document.getElementById("resume-button-2");
 containerResume.onclick = (e) => {
   // e.preventDefault()
-  window.open("./Media/Abhay-v_Resume.pdf", "_blank")
-  // console.log("Click");
+ 
+   // Create a temporary link
+    e.preventDefault(); // Prevent the default link behavior
+window.open("https://drive.google.com/file/d/1lZWDtfK68mbIkWB0ZbkP9M13Kwc1MnP1/view?usp=sharing", "_blank")
+    // Create a temporary link
+    let link = document.createElement('a');
+    
+    // Set the link's attributes
+    link.href = './Media/ABHAY V_Resume.pdf'; // Replace with the actual path to your resume PDF
+    link.target = '_blank';
+    link.download = 'ABHAY V_Resume.pdf'; // Replace with the desired file name
+
+    // Append the link to the document
+    document.body.appendChild(link);
+
+    // Trigger a click on the link
+    link.click();
+
+    // Remove the link from the document
+    document.body.removeChild(link);
+  
 }
 
 
