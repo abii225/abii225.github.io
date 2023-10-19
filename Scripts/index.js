@@ -124,66 +124,117 @@ const contactMessage = document.getElementById("contactMessage");
 const ContactPhoneNumber = document.getElementById("ContactPhoneNumber");
 
 
+// function handleSubmit(e) {
+//   e.preventDefault();
+//   console.log('submit clicked');
+
+//   document.getElementById('contactSubmit').innerHTML = `<i class="fa fa-refresh fa-spin"></i> Send`
+//   document.getElementById('contactSubmit').disabled = true;
+
+//   console.log([contactName.value, contactEmail.value, contactMessage.value]);
+
+//   const data = {
+//     service_id: 'service_cud71u7',
+//     template_id: 'template_z5e44h9',
+//     user_id: 'JifQZqT4RWnST7CtO',
+//     template_params: {
+//       'from_name': contactName.value,
+//       'to_name': 'Kishan',
+//       'message': contactMessage.value,
+//       'from_email': contactEmail.value,
+//       'phone_number': ContactPhoneNumber.value
+//     }
+//   };
+
+//   console.log(data);
+
+//   fetch('https://api.emailjs.com/api/v1.0/email/send', {
+//     method: "POST",
+//     headers: {
+//       "Content-Type": "application/json"
+//     },
+//     body: JSON.stringify(data)
+//   })
+//     .then(res => {
+
+//       console.log('===>', res);
+//       return res.text()
+
+//     })
+//     .then(data => {
+
+//       console.log('=====>', data);
+
+//       if (data == 'OK') {
+//         alert('Message Send Successfully.')
+//       } else {
+//         alert('Internal Server Error.')
+//       }
+
+//     })
+//     .catch(err => {
+
+//       console.log(err);
+
+//     })
+//     .finally(() => {
+//       document.getElementById('contactSubmit').innerHTML = `Send`
+//       document.getElementById('contactSubmit').disabled = false;
+//     })
+
+// }
+
 function handleSubmit(e) {
-  e.preventDefault();
-  console.log('submit clicked');
+      e.preventDefault();
+      console.log('submit clicked');
 
-  document.getElementById('contactSubmit').innerHTML = `<i class="fa fa-refresh fa-spin"></i> Send`
-  document.getElementById('contactSubmit').disabled = true;
+      document.getElementById('contactSubmit').innerHTML = `<i class="fa fa-refresh fa-spin"></i> Send`;
+      document.getElementById('contactSubmit').disabled = true;
 
-  console.log([contactName.value, contactEmail.value, contactMessage.value]);
+      console.log([contactName.value, contactEmail.value, contactMessage.value]);
 
-  const data = {
-    service_id: 'service_cud71u7',
-    template_id: 'template_z5e44h9',
-    user_id: 'JifQZqT4RWnST7CtO',
-    template_params: {
-      'from_name': contactName.value,
-      'to_name': 'Kishan',
-      'message': contactMessage.value,
-      'from_email': contactEmail.value,
-      'phone_number': ContactPhoneNumber.value
+      const data = {
+        service_id: 'service_cud71u7',
+        template_id: 'template_z5e44h9',
+        user_id: 'JifQZqT4RWnST7CtO',
+        template_params: {
+          'from_name': contactName.value,
+          'to_name': 'abhayv225@gmail.com',
+          'message': contactMessage.value,
+          'from_email': contactEmail.value,
+          'phone_number': ContactPhoneNumber.value
+        }
+      };
+
+      console.log(data);
+
+      fetch('https://api.emailjs.com/api/v1.0/email/send', {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(data)
+      })
+        .then(res => {
+          console.log('===>', res);
+          return res.text();
+        })
+        .then(data => {
+          console.log('=====>', data);
+          if (data == 'OK') {
+            alert('Message Sent Successfully.');
+          } else {
+            alert('Internal Server Error.');
+          }
+        })
+        .catch(err => {
+          console.log(err);
+        })
+        .finally(() => {
+          document.getElementById('contactSubmit').innerHTML = `Send`;
+          document.getElementById('contactSubmit').disabled = false;
+        });
     }
-  };
-
-  console.log(data);
-
-  fetch('https://api.emailjs.com/api/v1.0/email/send', {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify(data)
-  })
-    .then(res => {
-
-      console.log('===>', res);
-      return res.text()
-
-    })
-    .then(data => {
-
-      console.log('=====>', data);
-
-      if (data == 'OK') {
-        alert('Message Send Successfully.')
-      } else {
-        alert('Internal Server Error.')
-      }
-
-    })
-    .catch(err => {
-
-      console.log(err);
-
-    })
-    .finally(() => {
-      document.getElementById('contactSubmit').innerHTML = `Send`
-      document.getElementById('contactSubmit').disabled = false;
-    })
-
-}
-
 
 
 
@@ -197,7 +248,7 @@ const typed = new Typed('.typing1', {
   loop: true
 })
 
-const colors = ['red', '#007bff', 'orange', 'magenta', 'cyan', '#0078ff']
+const colors = [ '#007bff', 'orange', 'magenta', 'cyan', '#0078ff']
 setInterval(() => {
   document.querySelector('.typing1').style.color = colors[Math.floor(Math.random() * (colors.length))]
 }, 2000)
