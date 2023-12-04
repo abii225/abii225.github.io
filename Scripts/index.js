@@ -51,7 +51,7 @@ resume.onclick = (e) => {
 
    // Create a temporary link
     e.preventDefault(); // Prevent the default link behavior
-window.open("https://drive.google.com/file/d/1lZWDtfK68mbIkWB0ZbkP9M13Kwc1MnP1/view?usp=sharing", "_blank")
+window.open("https://drive.google.com/file/d/1XknS1jeEmI3iNL9ClgzxzRqzc8nLwTFZ/view?usp=sharing", "_blank")
     // Create a temporary link
     let link = document.createElement('a');
     
