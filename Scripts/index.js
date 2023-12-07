@@ -51,14 +51,14 @@ resume.onclick = (e) => {
 
    // Create a temporary link
     e.preventDefault(); // Prevent the default link behavior
-window.open("https://drive.google.com/file/d/1XknS1jeEmI3iNL9ClgzxzRqzc8nLwTFZ/view?usp=sharing", "_blank")
+window.open("https://drive.google.com/file/d/1xd-CXrufW-jXOphx8OHhgEkRO2IHSuQ2/view?usp=sharing", "_blank")
     // Create a temporary link
     let link = document.createElement('a');
     
     // Set the link's attributes
-    link.href = './Media/ABHAY V_Resume.pdf'; // Replace with the actual path to your resume PDF
+    link.href = './Media/Abhay-V-Resume.pdf'; // Replace with the actual path to your resume PDF
     link.target = '_blank';
-    link.download = 'ABHAY V_Resume.pdf'; // Replace with the desired file name
+    link.download = 'Abhay-V-Resume.pdf'; // Replace with the desired file name
 
     // Append the link to the document
     document.body.appendChild(link);
@@ -76,14 +76,14 @@ containerResume.onclick = (e) => {
  
    // Create a temporary link
     e.preventDefault(); // Prevent the default link behavior
-window.open("https://drive.google.com/file/d/1lZWDtfK68mbIkWB0ZbkP9M13Kwc1MnP1/view?usp=sharing", "_blank")
+window.open("https://drive.google.com/file/d/1xd-CXrufW-jXOphx8OHhgEkRO2IHSuQ2/view?usp=sharing", "_blank")
     // Create a temporary link
     let link = document.createElement('a');
     
     // Set the link's attributes
-    link.href = './Media/ABHAY V_Resume.pdf'; // Replace with the actual path to your resume PDF
+    link.href = './Media/Abhay-V-Resume.pdf'; // Replace with the actual path to your resume PDF
     link.target = '_blank';
-    link.download = 'ABHAY V_Resume.pdf'; // Replace with the desired file name
+    link.download = 'Abhay-V-Resume.pdf'; // Replace with the desired file name
 
     // Append the link to the document
     document.body.appendChild(link);
