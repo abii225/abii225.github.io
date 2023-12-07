@@ -48,7 +48,7 @@
 }
 
 :root {
-    --main-color: #539165;
+    --main-color: #4aa5cc;
     --text-color: #fff;
     --bg-color: #0f0c27;
     --hover: #0064d6;
@@ -63,7 +63,7 @@ section {
 }
 
 body.active {
-    --bg-color: #207d96;
+    --bg-color: #2074d4;
     --text-color: #ffffff;
 
 }
@@ -140,7 +140,7 @@ header.shadow {
 }
 
 .navbar a:hover {
-    color: #0078ff;
+    color: #d6d6d6;
 }
 
 #menu-icon {
@@ -334,6 +334,7 @@ skills-container > div > div {
 .skills-container>div:hover {
     /* letter-spacing: 2px; */
     cursor: pointer;
+    background-color: #4aa5cc;
     box-shadow: rgba(74, 172, 123, 0.522) 0 1px 3px 0, rgba(86, 176, 140, 0.653) 0 0 0 1px;
 }
 
@@ -378,11 +379,11 @@ skills-container > div > div {
 }
 
 .project-card {
-    /* border: 5px solid #0078ff; */
-    box-shadow: rgba(74, 172, 123, 0.522) 0 1px 3px 0, rgba(86, 176, 140, 0.653) 0 0 0 1px;
-    border: 1px solid gray;
+   
+    border: 1px solid rgb(255, 255, 255);
     height: auto;
     display: flex;
+    background-color: #4aa5cc;
     flex-direction: column;
     padding: 20px 25px;
     border-radius: 1rem;
